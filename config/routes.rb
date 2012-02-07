@@ -1,12 +1,16 @@
 Homepage01::Application.routes.draw do
 
-  #match '/home',    :to => 'pages#home'
   get 'pages/home'
   get 'pages/full_width_demo'
   get 'pages/index_demo'
   get 'pages/style_demo'
+
+  match '/home',            :to => 'pages#home'  
+  match '/index_demo',      :to => 'pages#index_demo'  
+  match '/full_width_demo', :to => 'pages#full_width_demo'  
+  match '/style_demo',      :to => 'pages#style_demo'  
   
-  #root :to => 'pages#home'
+  root :to => 'pages#home'
     
   # The priority is based upon order of creation:
   # first created -> highest priority.

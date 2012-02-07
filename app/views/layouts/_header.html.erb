@@ -1,4 +1,4 @@
-<body id="top">
+
 <div class="wrapper col1">
   <div id="header">
     <div class="fl_left">
@@ -7,11 +7,10 @@
     </div>
     <div id="topnav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="style-demo.html">Style Demo</a></li>
-        <li><a href="full-width.html">Full Width</a></li>
-        <li><a href="#">Link Text</a></li>
-        <li class="last"><a href="#">A Long Link Text</a></li>
+        <li><%= link_to "Home", home_path %></li>
+        <li><%= link_to "Index Demo", index_demo_path %></li>
+        <li><%= link_to "Full Width Demo", full_width_demo_path %></li>
+        <li><%= link_to "Style Demo", style_demo_path %></li>
       </ul>
     </div>
     <br class="clear" />
