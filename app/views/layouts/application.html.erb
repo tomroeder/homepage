@@ -1,36 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- <!DOCTYPE html> -->
 <html>
-<head>
-  <title>Homepage01</title>  
-    <%= csrf_meta_tag %>
-    <%= stylesheet_link_tag 'photomatic/styles/layout' %>
-</head>
-<body id="top">
-  <!-- header -->
-  <%= render 'layouts/header' %>
-  <!-- navigation (show current file tree) 
-  <%= render 'layouts/sample_primary_navigation' %>
-  -->
-  <div class="wrapper col4">
-    <div class="container">
-      <div id="content">
-        <!-- Beispielinhalt -->
-        <%= render 'layouts/sample_content' %>
-        <!-- Beispieltabelle -->
-        <%= render 'layouts/sample_table' %>
-        <!-- Beispielkommentare (gepostet) -->
-        <%= render 'layouts/sample_comments' %>
-        <!-- Beispielformular -->
-        <%= render 'layouts/sample_form' %>
-      </div>
-      <div id="column">
-        <%= render 'layouts/sample_secondary_navigation' %>
-        <%= render 'layouts/sample_holder' %>
-      </div>
-      <br class="clear" />
-    </div>
-  </div>
-  <!-- footer ( with copyright for css template (don't remove !) -->
-  <%= render 'layouts/footer' %>
-</body>
+  <%= yield %>
+    <!-- footer ( with copyright for css template (don't remove !) -->
+    <%= render 'layouts/footer' %>
+  </body>
 </html>
