@@ -27,5 +27,7 @@ gem 'rspec-rails', '2.6.1'
 gem 'webrat', '0.7.1'
 end
 
+gem 'fancybox-rails'
 gem 'jquery-rails'
+
 # gem 'uglifier' #causes crash on heroku
