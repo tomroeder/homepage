@@ -44,51 +44,42 @@
     </div>
     <div class="gallery">
       <ul>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"single_image", :title => "Image 1 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("Linus02.jpg"), "/assets/Linus02.jpg", :class=>"fb_image", :title => "Image 2 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li class="last">
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 3 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 4 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 5 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li class="last">
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 6 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 7 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 8 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li class="last">
-          <p class="imgtitle">Indonectetus facilis leo nibh</p>
-          <%=link_to image_tag("284x224.gif"), "/assets/500x500.gif", :class=>"fb_image", :title => "Image 9 Link Title Tag", :alt => "" %>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
+        <%= @my_image_title = "Bernd und Thomas auf dem Weg zum Angeln";
+          @my_284_by_224 = "PICT0092.JPG"; @my_500_by_500 = @my_284_by_224;
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "... und eine Generation später : Linus";
+          @my_284_by_224 = "Linus02.jpg"; @my_500_by_500 = @my_284_by_224;
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "... und eine Generation später : Linus";
+          @my_284_by_224 = "Linus02.jpg"; @my_500_by_500 = @my_284_by_224;
+          render 'shared/large_image_preview_last'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview_last'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview'
+        %>
+        <%= @my_image_title = "Indonectetus facilis leo nibh";
+          @my_284_by_224 = "284x224.gif"; @my_500_by_500 = "/assets/500x500.gif";
+          render 'shared/large_image_preview_last'
+        %>
       </ul>
       <br class="clear" />
     </div>

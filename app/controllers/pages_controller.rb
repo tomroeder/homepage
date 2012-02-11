@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
+    @my_partials_subdir = "pages/home/";
   end
   def full_width_demo
   end

@@ -1,22 +1,19 @@
-<%= render 'layouts/sample_primary_navigation' %>
+<%= render @my_partials_subdir+'sample_primary_navigation' %>
 <div class="wrapper col4">
   <div class="container">
     <div id="content">
       <!-- Beispielinhalt -->
-     
-      <a class="single_image" href="/assets/500x500.gif"><img src="/assets/284x224.gif" alt=""/></a>
-
-      <%= render 'layouts/sample_content' %>
+      <%= render @my_partials_subdir+'sample_content' %>
       <!-- Beispieltabelle -->
-      <%= render 'layouts/sample_table' %>
+      <%= render @my_partials_subdir+'sample_table' %>
       <!-- Beispielkommentare (gepostet) -->
-      <%= render 'layouts/sample_comments' %>
+      <%= render @my_partials_subdir+'sample_comments' %>
       <!-- Beispielformular -->
-      <%= render 'layouts/sample_form' %>
+      <%= render @my_partials_subdir+'sample_form' %>
     </div>
     <div id="column">
-      <%= render 'layouts/sample_secondary_navigation' %>
-      <%= render 'layouts/sample_holder' %>
+      <%= render @my_partials_subdir+'sample_secondary_navigation' %>
+      <%= render @my_partials_subdir+'sample_holder' %>
     </div>
     <br class="clear" />
   </div>
