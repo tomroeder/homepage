@@ -14,7 +14,6 @@ group :production do
 #  gem 'therubyracer' #because of error "ActionView::Template::Error (no such file to load -- uglifier"
 end
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
