@@ -10,7 +10,7 @@ Homepage01::Application.routes.draw do
   match '/full_width_demo', :to => 'pages#full_width_demo'  
   match '/style_demo',      :to => 'pages#style_demo'  
   
-  root :to => 'pages#home'
+  root :to => 'pages#full_width_demo'
     
   # The priority is based upon order of creation:
   # first created -> highest priority.
