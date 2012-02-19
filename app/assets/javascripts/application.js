@@ -1,25 +1,22 @@
-// This is a manifest file that'll be compiled into including all the files listed below.
-// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
-// be included in the compiled file accessible from http://example.com/assets/application.js
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
+//
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
+//
+// WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
+// GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
 //= require fancybox
 //= require jquery_ujs
 //= require_tree .
 
-//For setup of fancybox see :
-//https://github.com/hecticjeff/fancybox-rails
-//http://stackoverflow.com/questions/8681041/rails-3-1-fancybox
-
-//Copied from http://stackoverflow.com/questions/8681041/rails-3-1-fancybox
-$(document).ready(function(){
- $("a.single_image").fancybox({'type': 'image'});
-});
-
-//Copied from jquery.fancybox-1.3.2.setup.js
 $(document).ready(function () {
+    alert("fb_image fancybox neu geladen");
     $("a.fb_image").fancybox({
         'transitionIn': 'elastic',
         'transitionOut': 'elastic',
