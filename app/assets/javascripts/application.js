@@ -16,7 +16,7 @@
 //= require_tree .
 
 $(document).ready(function () {
-    alert("fb_image fancybox neu geladen");
+    //alert("fb_image fancybox neu geladen");
     $("a.fb_image").fancybox({
         'transitionIn': 'elastic',
         'transitionOut': 'elastic',
