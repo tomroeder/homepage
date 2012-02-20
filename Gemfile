@@ -11,7 +11,7 @@ end
 
 group :production do 
   gem 'pg'
-#  gem 'therubyracer' #because of error "ActionView::Template::Error (no such file to load -- uglifier"
+  gem 'therubyracer' #because of error "ActionView::Template::Error (no such file to load -- uglifier"
 end
 
 # Gems used only for assets and not required
