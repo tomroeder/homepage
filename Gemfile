@@ -11,7 +11,7 @@ end
 
 group :production do 
   gem 'pg'
-  gem 'therubyracer' #because of error "ActionView::Template::Error (no such file to load -- uglifier"
+  gem 'therubyracer', :platform => :ruby # :platform because of problems with windows
 end
 
 # Gems used only for assets and not required
@@ -22,7 +22,6 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
-
   gem 'uglifier', '>= 1.0.3'
 end
 
