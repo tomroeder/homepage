@@ -11,7 +11,7 @@ end
 
 group :production do 
   gem 'pg'
-  gem 'therubyracer', :platform => :ruby # :platform because of problems with windows
+  gem 'therubyracer', :platform => :ruby # :platform because of problems with windows (this didnt help)
 end
 
 # Gems used only for assets and not required
