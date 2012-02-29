@@ -47,7 +47,7 @@ div.wrapper{
 	text-align:left;
 	}
 
-div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+div.wrapper h1 {
 	margin:0 0 15px 0;
 	padding:0;
 	font-size:20px;
@@ -56,7 +56,25 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	color:#666666;
 	background-color:#000000;
 	}
+div.wrapper h2 {
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:18px;
+	font-weight:normal;
+	line-height:normal;
+	color:#666666;
+	background-color:#000000;
+	}
 
+div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:normal;
+	line-height:normal;
+	color:#666666;
+	background-color:#000000;
+	}	
 .col1{border-top:5px solid #666;}
 .col1 a{color:#CCCCCC; background-color:#000000;}
 .col2{padding:20px 0;}

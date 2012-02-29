@@ -7,6 +7,7 @@ Homepage01::Application.routes.draw do
   get 'pages/credits'
   get 'pages/music'
   get 'pages/football'
+  get 'pakes/lakes'
 
   match '/home',            :to => 'pages#home'
   match '/credits',         :to => 'pages#credits'
@@ -15,7 +16,8 @@ Homepage01::Application.routes.draw do
   match '/index_demo',      :to => 'pages#index_demo'  
   match '/full_width_demo', :to => 'pages#full_width_demo'  
   match '/style_demo',      :to => 'pages#style_demo'  
-  match '/football',        :to => 'pages#football'  
+  match '/football',        :to => 'pages#football'
+  match '/lakes',           :to => 'pages#lakes'
   
   root :to => 'pages#home'
     
