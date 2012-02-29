@@ -42,6 +42,7 @@ GEM
       multi_json (~> 1.0)
     fancybox-rails (0.1.4)
       railties (>= 3.1.0)
+    haml (3.1.4)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.2)
@@ -108,6 +109,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   fancybox-rails
+  haml
   jquery-rails
   pg
   rails (= 3.2.1)

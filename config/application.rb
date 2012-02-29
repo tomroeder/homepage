@@ -43,7 +43,7 @@ module Homepage01
     config.assets.enabled = true
     
     # Heroku requires this to be false ( http://guides.rubyonrails.org/asset_pipeline.html )
-    #config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = false
     
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
