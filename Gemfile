@@ -25,7 +25,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
+gem 'newrelic_rpm'
 gem 'haml'
 gem 'jquery-rails'
 gem 'fancybox-rails' ###
