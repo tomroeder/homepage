@@ -26,6 +26,7 @@ group :assets do
 end
 
 gem 'newrelic_rpm'
+
 gem 'haml'
 gem 'jquery-rails'
 gem 'fancybox-rails' ###
