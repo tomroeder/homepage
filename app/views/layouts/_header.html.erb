@@ -8,15 +8,21 @@
     <div id="topnav">
       <ul>
         <li><%= link_to "Home", home_path %></li>
-        <!-- <li><%= link_to "Login", home_path %></li> -->
-        <!-- <li><%= link_to "Bilder", home_path %></li> -->
         <li><%= link_to "Musik", music_path %></li>
         <!-- <li><%= link_to "Kontakt", home_path %></li> -->
         <li><%= link_to "Fußball", football_path %></li>
         <li><%= link_to "Seen", lakes_path %></li>
+        <% if signed_in? %>
+          <li><%= link_to "Bilder", index_demo_path %></li>
+        <% end %>
+        <% if signed_in? %>
+          <li><%= link_to "Logout", signout_path, :method => :delete %></li>
+        <% else %>
+          <li><%= link_to "Login", signin_path %></li>
+        <% end %>
         <li><%= link_to "Entwicklung", credits_path %></li>
         <!--
-        <li><%= link_to "Index Demo", index_demo_path %></li>
+        
         <li><%= link_to "Full Width Demo", full_width_demo_path %></li>
         <li><%= link_to "Style Demo", style_demo_path %></li>
         -->

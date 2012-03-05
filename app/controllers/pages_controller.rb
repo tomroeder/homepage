@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+  
+  before_filter :authenticate, :only => [:index_demo]
+   
   def home
     @my_partials_subdir = "pages/home/";
   end
