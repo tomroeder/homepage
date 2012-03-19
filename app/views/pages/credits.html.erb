@@ -1,14 +1,22 @@
 <div class="wrapper col3">
   <div class="container">
-    <h1>Diese Seite wurde entwickelt mit</h1>
-    <p>
-      <% railslogo = image_tag("rails.png", :alt => "") %>
-      <%= link_to  railslogo, "http://www.rubyonrails.org/" %>
-      <br> Open Source Web Development Framework</p>
-    <p><%= link_to "Ruby on Rails Tutorial", "http://ruby.railstutorial.org/chapters/rails-3-1#main_content" %></p>
-    <p><%= link_to "Fancybox : Mac-style lightbox image viewer", "http://fancybox.net/" %> </p>
-    <p><%= link_to "OS Templates", "http://www.os-templates.com/" %> - Free Website Templates - CSS / XHTML + PNG</p>
-    <p><%= link_to "Git Versionskontrolle", "http://git-scm.com/" %> </p>
+    <h1>Diese Seite wurde mit Ruby On Rails entwickelt :</h1>
+      <p>
+        <% railslogo = image_tag("rails.png", :alt => "") %>
+        <%= link_to  railslogo, "http://www.rubyonrails.org/" %>
+        <br> Open Source Web Development Framework
+      </p>
+      <h3>Einstieg in Ruby On Rails</h3>
+        <p>
+          <%= link_to "Ruby on Rails Tutorial", "http://ruby.railstutorial.org/chapters/rails-3-1#main_content" %>
+        </p>
+      <h3>Design</h3>
+        <p><%= link_to "Fancybox", "http://fancybox.net/" %> - Mac-style lightbox image viewer</p>
+        <p><%= link_to "OS Templates", "http://www.os-templates.com/" %> - Free Website Templates - CSS / XHTML + PNG</p>
+      <h3>Versionierung</h3>     
+        <p><%= link_to "Git", "http://git-scm.com/" %> </p>
+      <h3>Webhosting</h3>     
+        <p><%= link_to "Heroku", "http://heroku.com/" %> Cloud Web-Hosting von Rails Applikationen</p>
   </div>
 </div>
 
