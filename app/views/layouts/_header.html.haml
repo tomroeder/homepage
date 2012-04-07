@@ -1,0 +1,20 @@
+.wrapper.col1
+  #header
+    .fl_left
+      %h1 Die Elxlebener
+      %h3 Judith, Linus und Thomas Röder
+    #topnav
+      -# The variable returned by the ApplicationHelper::current_menu function is set 
+      -# by a before_filter in th pages controller according to the currently requested page
+      -# This then renders a menu according to the current page
+      - case current_menu
+      - when :hobby
+        = render 'layouts/header_hobby' 
+      - when :develop
+        = render 'layouts/header_development'
+      - when :contact
+        = render 'layouts/header_contact'
+      - else #default 
+        = render 'layouts/header_home'
+    %br.clear
+    

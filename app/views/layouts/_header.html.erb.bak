@@ -1,0 +1,32 @@
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="#">Die Elxlebener</a></h1>
+      <p>Judith, Linus und Thomas Röder</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li><%= link_to "Home", home_path %></li>
+        <li><%= link_to "Musik", music_path %></li>
+        <!-- <li><%= link_to "Kontakt", home_path %></li> -->
+        <li><%= link_to "Fußball", football_path %></li>
+        <li><%= link_to "Gewässer", lakes_path %></li>
+        <% if signed_in? %>
+          <li><%= link_to "Bilder", index_demo_path %></li>
+        <% end %>
+        <% if signed_in? %>
+          <li><%= link_to "Logout", signout_path, :method => :delete %></li>
+        <% else %>
+          <li><%= link_to "Login", signin_path %></li>
+        <% end %>
+        <li><%= link_to "Entwicklung", credits_path %></li>
+        <!--
+        
+        <li><%= link_to "Full Width Demo", full_width_demo_path %></li>
+        <li><%= link_to "Style Demo", style_demo_path %></li>
+        -->
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>

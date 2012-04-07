@@ -1,25 +1,20 @@
 Homepage01::Application.routes.draw do
 
-  resources :sessions, :only => [:new, :create, :destroy]
-
- # get 'pages/home'
- # get 'pages/full_width_demo'
- # get 'pages/index_demo'
- # get 'pages/style_demo'
- # get 'pages/credits'
- # get 'pages/music'
- # get 'pages/football'
- # get 'pages/lakes'
+  resources :sessions,   :only => [:new, :create, :destroy]
+  resources :microposts, :only => [:new, :create, :destroy]
 
   match '/home',            :to => 'pages#home'
   match '/credits',         :to => 'pages#credits'
   match '/music',           :to => 'pages#music'
-  match '/football',        :to => 'pages#football'  
   match '/index_demo',      :to => 'pages#index_demo'  
   match '/full_width_demo', :to => 'pages#full_width_demo'  
   match '/style_demo',      :to => 'pages#style_demo'  
   match '/football',        :to => 'pages#football'
   match '/lakes',           :to => 'pages#lakes'
+  match '/hobby',           :to => 'pages#hobby'
+  
+  match '/new_contact',     :to => 'microposts#new'
+  match '/view_contacts',   :to => 'microposts#show'
   
   match '/signin',          :to => 'sessions#new'
   match '/signout',         :to => 'sessions#destroy'

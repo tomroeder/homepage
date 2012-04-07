@@ -1,0 +1,17 @@
+%ul
+  %li
+    = link_to "Home", home_path
+  %li 
+    = link_to "Hobby", hobby_path
+  %li 
+    = link_to "Entwicklung", credits_path
+  - if signed_in?
+    %li 
+      = link_to "Bilder", index_demo_path
+    %li
+      = link_to "Logout", signout_path, :method => :delete
+  - else
+    %li
+      = link_to "Login", signin_path
+  %li
+    = link_to "Kontakt", new_contact_path

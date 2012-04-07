@@ -1,0 +1,8 @@
+%ul
+  %li
+    = link_to "Home", home_path
+  %li 
+    = link_to "Neu", new_contact_path
+  - if signed_in?
+    %li 
+      = link_to "Anzeigen", view_contacts_path
