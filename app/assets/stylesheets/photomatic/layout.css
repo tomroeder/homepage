@@ -82,6 +82,25 @@ div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
 .col4{}
 .col5, .col5 a{color:#333; background-color:#000;}
 
+/* --------------------------------------------Flash errors------------------------------------ */
+.error, .alert, .notice, .success, .info {padding:0.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error, .alert {background:#fbe3e4;color:#8a1f11;border-color:#fbc2c4;}
+.notice {background:#fff6bf;color:#514721;border-color:#ffd324;}
+.success {background:#e6efc2;color:#264409;border-color:#c6d880;}
+.info {background:#d5edf8;color:#205791;border-color:#92cae4;}
+.error a, .alert a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+.info a {color:#205791;}
+
+#error_explanation {
+  width: 400px;
+  /* border: 2px solid red; */
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  color: red;
+}
 /* ----------------------------------------------Generalise-------------------------------------*/
 
 #header, #breadcrumb, .container, .gallery, #footer{

@@ -8,6 +8,14 @@ class PagesController < ApplicationController
   before_filter :set_hobby_menu, :only => [:hobby, :lakes, :music, :football]
   before_filter :set_development_menu, :only => [:credits]
   
+  #test only
+  #before_filter :set_en, :only => [:music]
+  
+  #test only
+  #def set_en
+  #  I18n.locale = 'en'
+  #end
+
   def home
     @my_partials_subdir = "pages/home/";
   end
@@ -21,4 +29,5 @@ class PagesController < ApplicationController
   end
   def style_demo
   end
+  
 end

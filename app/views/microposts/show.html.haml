@@ -19,8 +19,9 @@
             = time_ago_in_words(mp.created_at) 
             ago id
             = mp.id
-          %td    
-            = mp.content
+          %td
+            -# wrap -> see MicropostsHelper    
+            = wrap( mp.content )
           %td
             = link_to "Löschen", mp, :method => :delete, :confirm => "Eintrag wirklich löschen?", :title => mp.content
           </tr>

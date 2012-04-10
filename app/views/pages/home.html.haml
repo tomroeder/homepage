@@ -1,0 +1,16 @@
+.wrapper.col2
+  .container
+    .homecontent
+      %h1 
+        =t( :hello )
+      %br
+      -# = link_to( 'Sprache Englisch', music_url(:locale => 'en'))
+      = link_to( 'Sprache Englisch', home_path(:locale => 'en')) # appends ?locale=en to the base url
+      %br
+      = link_to( 'Sprache Deutsch', home_path(:locale => 'de')) # appends ?locale=de to the base url
+      %br
+      %br.clear
+
+
+
+

@@ -19,6 +19,7 @@ class MicropostsController < ApplicationController
     @m_micropost = Micropost.new( params[:micropost] )
     if ( @m_micropost.save )
      # handle success
+     flash[:success] = "Nachricht gesendet"
      redirect_to '/home'
     else
       # On failure show the page for a new micropost again with the according error messages (see _error_messages.html.erb)

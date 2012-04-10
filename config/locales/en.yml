@@ -2,4 +2,12 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  Bought: "Bought"
+  Development: "Development"
+  Contact:     "Contact"
+  Fishing:  "Fishing"
+  Football: "Football"
+  Guitar: "Guitar"
+  hello: "hello"
+  Images: "Images"
+  Music:  "Music"
