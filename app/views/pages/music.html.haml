@@ -1,25 +1,30 @@
 .wrapper.col3
   .container
-    %h1 
-      = t(:Bought) 
+    %h1
+      = t('Bought')
       2011 : Brian May Signature 
-      = t(:Guitar)
+      = t('Guitar')
     = image_tag "brian_may_signature_02_large.jpg", :class=> "imgr", :alt => "", :size => "375x248"
     %br
-    %p Technische Daten :
-    %p Hals: Mahagoni, eingeleimt
+    %p= t('Technical data :')
+    %p= t('Neck : Mahagoni, glued')
     %p Korpus: Mahagoni
-    %p Typ: Solidbody mit Tonkammern
-    %p Mechaniken: Groverh Locking
-    %p Tonabnehmer: 3x Burns TriSonic Singlecoils
-    %p Regler: 1x Mastervolumen und 1x Masterton
-    %p Schalter: 6x Zwei-Weg-Schiebeschalter (An/Aus und Phase pro Pickup)
-    %p Brücke: Wilkinson Tremolo System
-    %p Farbe: Antique Cherry
-    %p Großartiges Tremolo, breites sehr gut bespielbares Griffbrett aus Mahagoni.
+    %p= t('Type : Solidbody with acoustic chambers') 
+    %p= t('Mechanics: Grover GH Locking')
+    %p
+      = t('Pickups')
+      \: 3x Burns TriSonic Singlecoils
+    %p= t('Controller : 1x Master Volume & 1x Tone controls')
+    %p= t('Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)')
+    %p 
+      = t('Bridge')
+      \: Wilkinson Tremolo System
+    %p
+      = t('Color')
+      \: Antique Cherry
     %br
     %p  
-    = link_to "Brian May offizielle Homepage", "http://www.brianmay.com"
+    = link_to t('Brian May official homepage'), "http://www.brianmay.com"
     %p
     / = link_to image_tag("bmg_logo150x75.gif", :alt => ""), 'http://www.brianmayguitars.co.uk'
     / = audio_tag "firefighters.ogg", :controls => true 

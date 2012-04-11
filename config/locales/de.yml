@@ -2,12 +2,28 @@
 
 
 de:
+  and: "und"
   Bought: "Gekauft"
+  Bridge: "Brücke"
   Development: "Entwicklung"
   Contact:     "Kontakt"
+  Color:       "Farbe"
   Fishing:  "Angeln"
+  'Fishing in Thuringia': 'Angeln in Thüringen'
+  follow:   "folgene"
   Football: "Fußball"
-  Guitar: "Gitarre"
-  hello:     "hallo"
+  Guitar:   "Gitarre"
+  hello:    "hallo"
   Images: "Bilder"
-  Music:  "Musik"
+  Music:  "Musik" 
+  'read on': "weiterlesen"
+
+
+  'Technical data :':   "Technische Daten"
+  'Neck : Mahagoni, glued': "Neck : Mahagoni, eingeleimt"
+  'Type : Solidbody with acoustic chambers': "Typ : Solidbody mit Tonkammern"
+  'Mechanics: Grover GH Locking': "Mechaniken: Grover GH Locking"
+  'Pickups': "Tonabnehmer"
+  'Controller : 1x Master Volume & 1x Tone controls': "Rgeler : 1x Mastervolumen & 1x Masterton"
+  'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)': "Schalter: 6x Zwei-Weg-Schiebeschalter (An/Aus und Phase pro Pickup)"
+  'Brian May official homepage': 'Brian May offizielle Homepage'

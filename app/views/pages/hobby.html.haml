@@ -1,0 +1,27 @@
+.wrapper.col2
+  .container
+    .homecontent
+      %ul
+        %li
+          %h2.title
+            = image_tag "brian_may_signature_02.jpg", :alt => "", :size => '80x60'
+            = t(:Music)
+          %p 
+            Brian May Signature 
+            = t(:Guitar)
+          %p.readmore
+            = link_to t('read on'), music_path
+        %li
+          %h2.title
+            = image_tag "_wsb_137x140_wappen-sportfreundeelxleben.jpg", :alt => "", :size => '60x60'
+            = t(:Football)
+            in Elxleben
+          %p.readmore
+            = link_to t('read on'), football_path
+        %li.last
+          %h2.title
+            = image_tag "Naturdenkmal.png", :alt => "", :size => '70x60'
+            = t(:'Fishing in Thuringia')
+          %p.readmore
+            = link_to t('read on'), lakes_path
+      %br.clear

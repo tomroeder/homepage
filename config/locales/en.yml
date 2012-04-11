@@ -2,12 +2,28 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  and : "and"
   Bought: "Bought"
+  Bridge: "Bridge"
   Development: "Development"
   Contact:     "Contact"
+  Color:    "Color"
   Fishing:  "Fishing"
+  'Fishing in Thuringia': 'Fishing in Thuringia'
   Football: "Football"
-  Guitar: "Guitar"
-  hello: "hello"
-  Images: "Images"
-  Music:  "Music"
+  follow:   "follow"
+  Guitar:   "Guitar"
+  hello:    "hello"
+  Images:   "Images" 
+  Music:    "Music"
+  'read on': "read on"
+  
+  'Technical data :':   "Technical data :"
+  'Neck : Mahagoni, glued': "Neck : Mahagoni, glued"
+  'Type : Solidbody with acoustic chambers': "Type : Solidbody with acoustic chambers"
+  'Mechanics: Grover GH Locking': "Mechanics: Grover GH Locking"
+  'Pickups': "Pickups"
+  'Controller : 1x Master Volume & 1x Tone controls': "Controller : 1x Master Volume & 1x Tone controls"
+  'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)': 'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)'
+  'Brian May official homepage': 'Brian May official homepage'
+  
