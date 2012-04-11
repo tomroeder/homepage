@@ -1,27 +1,40 @@
-.wrapper.col2
+.wrapper.col3
   .container
     .homecontent
       %ul
         %li
           %h2.title
             = image_tag "brian_may_signature_02.jpg", :alt => "", :size => '80x60'
-            = t(:Music)
+            = t('Music')
           %p 
             Brian May Signature 
-            = t(:Guitar)
+            = t('Guitar')            
+          %p
+            = t('Technical data :')
+            %br
+            = t('Neck : Mahagoni, glued')
+            %br
+            Korpus: Mahagoni
           %p.readmore
             = link_to t('read on'), music_path
         %li
           %h2.title
             = image_tag "_wsb_137x140_wappen-sportfreundeelxleben.jpg", :alt => "", :size => '60x60'
-            = t(:Football)
+            = t('Football')
             in Elxleben
+          %p= t('Playing football is cool, dont you think?')
+          %p= t('Give it a try with our football club Sportfreunde Elxleben!')
+          %br
           %p.readmore
             = link_to t('read on'), football_path
         %li.last
           %h2.title
             = image_tag "Naturdenkmal.png", :alt => "", :size => '70x60'
-            = t(:'Fishing in Thuringia')
+            = t('Fishing in Thuringia')
+          %p= t('Fishing_0005')
+          %br
+          %br
+          %br
           %p.readmore
             = link_to t('read on'), lakes_path
       %br.clear

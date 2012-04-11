@@ -4,7 +4,7 @@ Homepage01::Application.routes.draw do
   resources :microposts, :only => [:new, :create, :destroy]
 
   match '/home',            :to => 'pages#home'
-  match '/credits',         :to => 'pages#credits'
+  match '/credits',         :to => 'pages#development'
   match '/music',           :to => 'pages#music'
   match '/index_demo',      :to => 'pages#index_demo'  
   match '/full_width_demo', :to => 'pages#full_width_demo'  
