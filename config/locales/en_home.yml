@@ -2,12 +2,14 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  'Action': 'Action'
   and : "and"
   Bought: "Bought"
   Bridge: "Bridge"
   Development: "Development"
   Contact:     "Contact"
   Color:    "Color"
+  'Contents': 'Contents'
   Delete:   'Delete'
   Fishing:  "Fishing"
   'Fishing in Thuringia': 'Fishing in Thuringia'
@@ -19,9 +21,12 @@ en:
   'Contact form': 'Contact form'
   Music:    "Music"
   'New':    "New"
+  'Password': 'Password'
   'read on': "read on"
+  'Received':  'Received'
   Size:     "Size"
-  'Send':   'Send' 
+  'Send':   'Send'
+  'Time': 'Time'
   Versioning: 'Versioning' 
   View: 'View' 
   
@@ -63,4 +68,6 @@ en:
   'Development_0010': 'This site was developed with Ruby On Rails'
   'Development_0020': 'Getting started with Ruby On Rails'
   'Development_0030': 'Cloud web-hosting of Rails applications'
+
+  'Contact_0020': 'Really delete contents?'
 

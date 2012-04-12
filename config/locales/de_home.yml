@@ -2,12 +2,14 @@
 
 
 de:
+  'Action': 'Aktion'
   and: "und"
   Bought: "Gekauft"
   Bridge: "Brücke"
   Development: "Entwicklung"
   Contact:     "Kontakt"
   Color:       "Farbe"
+  'Contents': 'Inhalt'
   Delete:   'Löschen'
   Fishing:  "Angeln"
   'Fishing in Thuringia': 'Angeln in Thüringen'
@@ -19,9 +21,12 @@ de:
   'Contact form': 'Kontaktformular'
   Music:  "Musik" 
   'New':    "Neu"
+  'Password': 'Passwort'
   'read on': "weiterlesen"
+  'Received':  'Erhaltene'
   'Send':   'Absenden' 
   Size:     "Größe"
+  'Time': 'Zeit'
   Versioning: 'Versionierung'
   View: 'Anzeigen' 
 
@@ -64,3 +69,5 @@ de:
   'Development_0010': 'Diese Seite wurde mit Ruby On Rails entwickelt'
   'Development_0020': 'Einstieg in Ruby On Rails'
   'Development_0030': 'Cloud Web-Hosting von Rails Applikationen'
+  
+  'Contact_0020': 'Eintrag wirklich löschen?'

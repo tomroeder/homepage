@@ -1,12 +1,14 @@
 .wrapper.col3
   .container
-    %h2 Erhaltene Posts
+    %h2
+      =t('Received') 
+      Posts
     %table{:summary=>"Summary Here", :cellpadding=>"0", :cellspacing=>"0" }
       %thead
         %tr
-          %th Zeit
-          %th Inhalt
-          %th Aktion
+          %th= t('Time')
+          %th= t('Contents')
+          %th= t('Action')
       %tbody
         - row = 0
         - @m_microposts.each do |mp|
@@ -23,5 +25,5 @@
             -# wrap -> see MicropostsHelper    
             = wrap( mp.content )
           %td
-            = link_to "Löschen", mp, :method => :delete, :confirm => "Eintrag wirklich löschen?", :title => mp.content
+            = link_to t('Delete'), mp, :method => :delete, :confirm => t('Contact_0020'), :title => mp.content
           </tr>
