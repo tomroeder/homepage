@@ -1,0 +1,66 @@
+
+
+
+de:
+  and: "und"
+  Bought: "Gekauft"
+  Bridge: "Brücke"
+  Development: "Entwicklung"
+  Contact:     "Kontakt"
+  Color:       "Farbe"
+  Delete:   'Löschen'
+  Fishing:  "Angeln"
+  'Fishing in Thuringia': 'Angeln in Thüringen'
+  follow:   "folgene"
+  Football: "Fußball"
+  Guitar:   "Gitarre"
+  hello:    "hallo"
+  Images: "Bilder"
+  'Contact form': 'Kontaktformular'
+  Music:  "Musik" 
+  'New':    "Neu"
+  'read on': "weiterlesen"
+  'Send':   'Absenden' 
+  Size:     "Größe"
+  Versioning: 'Versionierung'
+  View: 'Anzeigen' 
+
+  'Technical data :':   "Technische Daten"
+  'Neck : Mahagoni, glued': "Neck : Mahagoni, eingeleimt"
+  'Type : Solidbody with acoustic chambers': "Typ : Solidbody mit Tonkammern"
+  'Mechanics: Grover GH Locking': "Mechaniken: Grover GH Locking"
+  'Pickups': "Tonabnehmer"
+  'Controller : 1x Master Volume & 1x Tone controls': "Rgeler : 1x Mastervolumen & 1x Masterton"
+  'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)': "Schalter: 6x Zwei-Weg-Schiebeschalter (An/Aus und Phase pro Pickup)"
+  'Brian May official homepage': 'Brian May offizielle Homepage'
+
+  'Playing football is cool, dont you think?': "Fußball spielen ist echt die coolste Sportart. Findet ihr das auch?"
+  'Give it a try with our football club Sportfreunde Elxleben!': 'Probiert es einfach mal bei dem Fußballverein Sportfreunde Elxleben!' 
+  'In any case take a look to the website': 'Schaut auf jeden Fall mal auf der Internetseite'
+  'where you find more information about the club': 'nach, dort findet ihr auch mehr Informationen über den Fußballverein.'
+  
+  'Fishing_0005': 'Hier ein kleiner Überblick über einige Gewässer in Thüringen.'
+  'Fishing_0010': 'Der Hohenwarte-Stausee liegt im Süden Thüringens und wird auch liebevoll als "Thüringer Meer" bezeichnet.'
+  'Fishing_0020': 'Er ist Teil der fast achtzig Kilometer langen, fünf mal hintereinander gestauten Saalekaskade, 
+      dem größten zusammenhängenden Stauseegebiet Deutschlands.'
+  'Fishing_0030': 'In unzähligen Windungen durchschlängelt unser "Thüringer Meer" das Saaletal zwischen steilen Hängen, 
+      inmitten einer faszinierenden Waldlandschaft.'
+  'Fishing_0040': 'Nahe dem Stausee Hohenfelden.'
+  'Fishing_0050': 'Hauptfischarten:'
+  'Fishing_0060': 'Karpfen, Schleien, schöne Hechte, Aale und verschiedene Weißfischarten etc.'
+  'Fishing_0070': 'Als Altgewässer ist dieser See für einige Überraschungen gut, hervorragende Fänge an Karpfen, Aal, Schleie, Hecht, Barsch und Zander.'
+  'Fishing_0080': 'Zu meiden ist das Steilufer am Werkgelände aus Gründen von Gefahren.' 
+  'Fishing_0090': 'Dieser See ist verbunden mit dem unmittelbar davorliegenden Gewässer.' 
+  'Fishing_0100': 'Ein guter Fischbesatz prägt das Altgewässer mit Fangerfolg.'
+
+  'Fishing_0110': 'Diese Gewässer sind über Mittelhausen von Erfurt kommend in Richtung Nöda zu erreichen.' 
+  'Fishing_0120': 'In Mittelhausen am Gasthaus ,,Zur Sonne” links abbiegen.' 
+  'Fishing_0130': 'Nach ca. 100 m wird der Denkmalsweg erreicht.' 
+  'Fishing_0140': 'Diesem folgen Sie bis an die Gewässer.' 
+  'Fishing_0150': 'Sie können die genannten Kiesseen auch erreichen, in dem Sie durch Mittelhausen die Straße nach Nöda fahren.' 
+  'Fishing_0160': 'Ca. nach einem Kilometer in Höhe des Wäldchens links abbiegen und den befestigten Elxlebener Feldweg bis zum Reihersee fahren.' 
+  'Fishing_0170': 'Hier sind auch der Hechtsee, Plötzensee, Karpfenteich und der Kiessee im Gelände des Werkes (ZBO) zu erreichen'
+  
+  'Development_0010': 'Diese Seite wurde mit Ruby On Rails entwickelt'
+  'Development_0020': 'Einstieg in Ruby On Rails'
+  'Development_0030': 'Cloud Web-Hosting von Rails Applikationen'

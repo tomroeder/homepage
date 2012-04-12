@@ -1,6 +1,6 @@
 .wrapper.col3
   .container
-    %h1 Kontaktformular
+    %h1= t('Contact form')
     = form_for (@m_micropost) do |mp|
       -# Render errors from the last save action (if any errors exist) 
       = render 'shared/error_messages'
@@ -8,6 +8,6 @@
         = mp.text_area :content , :id => 'comment', :rows => 10, :cols => '100%'
       %br
       %div
-        = mp.submit 'Absenden' 
+        = mp.submit t('Send') 
         -# The important part here is the :type argument, which override's Rails' default of "submit" for the submit_tag -->
-        = submit_tag("Löschen", { :name => 'reset', :id => 'reset_button', :type => "reset" })
+        = submit_tag( t('Delete'), { :name => 'reset', :id => 'reset_button', :type => "reset" })

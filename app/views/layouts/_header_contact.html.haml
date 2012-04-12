@@ -2,7 +2,7 @@
   %li
     = link_to "Home", home_path
   %li 
-    = link_to "Neu", new_contact_path
+    = link_to t('New'), new_contact_path
   - if signed_in?
     %li 
-      = link_to "Anzeigen", view_contacts_path
+      = link_to t('View'), view_contacts_path

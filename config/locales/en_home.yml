@@ -1,0 +1,66 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  and : "and"
+  Bought: "Bought"
+  Bridge: "Bridge"
+  Development: "Development"
+  Contact:     "Contact"
+  Color:    "Color"
+  Delete:   'Delete'
+  Fishing:  "Fishing"
+  'Fishing in Thuringia': 'Fishing in Thuringia'
+  Football: "Football"
+  follow:   "follow"
+  Guitar:   "Guitar"
+  hello:    "hello"
+  Images:   "Images" 
+  'Contact form': 'Contact form'
+  Music:    "Music"
+  'New':    "New"
+  'read on': "read on"
+  Size:     "Size"
+  'Send':   'Send' 
+  Versioning: 'Versioning' 
+  View: 'View' 
+  
+  'Technical data :':   "Technical data :"
+  'Neck : Mahagoni, glued': "Neck : Mahagoni, glued"
+  'Type : Solidbody with acoustic chambers': "Type : Solidbody with acoustic chambers"
+  'Mechanics: Grover GH Locking': "Mechanics: Grover GH Locking"
+  'Pickups': "Pickups"
+  'Controller : 1x Master Volume & 1x Tone controls': "Controller : 1x Master Volume & 1x Tone controls"
+  'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)': 'Switches: 6x Two-Way-Push-Switches(On/Off and Phase per Pickup)'
+  'Brian May official homepage': 'Brian May official homepage'
+  
+  'Playing football is cool, dont you think?': 'Playing football is cool, dont yout think?'
+  'Give it a try with our football club Sportfreunde Elxleben!': 'Give it a try with our football club Sportfreunde Elxleben!' 
+  'In any case take a look to the website': 'In any case take a look to the website'
+  'where you find more information about the club': ', where you find more information about the football club.'
+   
+  'Fishing_0005': 'This is a small overview about lakes and rivers in Thuringia.' 
+  'Fishing_0010': 'The lake Hohenwarte-Stausee is found in the south of Thuringia and is fondly also called "Thuringian Sea".'
+  'Fishing_0020': 'It is part of the eighty kilomtetres long, five times dammed cascade of the river "Saale", 
+      the largest connected area of dammed lakes in Germany.'
+  'Fishing_0030': 'In countless twists our "Thuringian Sea" wiggles between steep slopes through the valley of the river Saale, 
+      amongst a fascinating woody landscape.'  
+  'Fishing_0040': 'Close to the dammed lake Hohenfelden.'
+  'Fishing_0050': 'Main fish species:'
+  'Fishing_0060': 'Carp, tench, nice pikes, eel and othter white fish species, etc.'
+  'Fishing_0070': 'Beeing an older lake, it can have some nice surprises, like great catches of carp, eel, tench, pike, perch and pikeperch.'
+  'Fishing_0080': 'The steep banks along the factory area must be avoided because of danger.' 
+  'Fishing_0090': 'This lake is connected with another closely lake.' 
+  'Fishing_0100': 'A good fish stock is typical for this elderly lake ad guarantees a successful catch.'
+  'Fishing_0110': 'These lakes can be found comming from Erfurt via Mittelhausen in the direction of Nöda.' 
+  'Fishing_0120': 'In Mittelhausen turn left behind the pub "Zur Sonne".' 
+  'Fishing_0130': 'After ca. 100 m you reach the "Denkmalsweg".' 
+  'Fishing_0140': 'Follow this way until you reach the lakes.' 
+  'Fishing_0150': 'You can also reach these lakes by folowing the street through Mittelhausen to Nöda.' 
+  'Fishing_0160': 'After nearly one kilometre near the small wood turn left and use the Elxlebener field path until reaching the Reihersee.' 
+  'Fishing_0170': 'Here you also find the lakes Hechtsee, Plötzensee, Karpfenteich and the Kiessee at the ground of the ZBO'
+
+  'Development_0010': 'This site was developed with Ruby On Rails'
+  'Development_0020': 'Getting started with Ruby On Rails'
+  'Development_0030': 'Cloud web-hosting of Rails applications'
+
