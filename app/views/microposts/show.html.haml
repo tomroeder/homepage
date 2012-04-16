@@ -8,6 +8,7 @@
         %tr
           %th= t('Time')
           %th= t('Contents')
+          %th= t('Email')
           %th= t('Action')
       %tbody
         - row = 0
@@ -21,9 +22,8 @@
             = time_ago_in_words(mp.created_at) 
             ago id
             = mp.id
-          %td
-            -# wrap -> see MicropostsHelper    
-            = wrap( mp.content )
-          %td
-            = link_to t('Delete'), mp, :method => :delete, :confirm => t('Contact_0020'), :title => mp.content
+          -# wrap -> see MicropostsHelper    
+          %td= wrap( mp.content )
+          %td= mp.email
+          %td= link_to t('Delete'), mp, :method => :delete, :confirm => t('Contact_0020'), :title => mp.content
           </tr>

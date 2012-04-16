@@ -19,6 +19,7 @@ en:
   hello:    "hello"
   Images:   "Images" 
   'Contact form': 'Contact form'
+  'Message': 'Message'
   Music:    "Music"
   'New':    "New"
   'Password': 'Password'
@@ -53,6 +54,7 @@ en:
   'Fishing_0040': 'Close to the dammed lake Hohenfelden.'
   'Fishing_0050': 'Main fish species:'
   'Fishing_0060': 'Carp, tench, nice pikes, eel and othter white fish species, etc.'
+  'Fishing_0065': "Curious duck in the lake \"Neuer Kiessee II\""
   'Fishing_0070': 'Beeing an older lake, it can have some nice surprises, like great catches of carp, eel, tench, pike, perch and pikeperch.'
   'Fishing_0080': 'The steep banks along the factory area must be avoided because of danger.' 
   'Fishing_0090': 'This lake is connected with another closely lake.' 
@@ -64,6 +66,7 @@ en:
   'Fishing_0150': 'You can also reach these lakes by folowing the street through Mittelhausen to Nöda.' 
   'Fishing_0160': 'After nearly one kilometre near the small wood turn left and use the Elxlebener field path until reaching the Reihersee.' 
   'Fishing_0170': 'Here you also find the lakes Hechtsee, Plötzensee, Karpfenteich and the Kiessee at the ground of the ZBO'
+  'Fishing_0180': "Winter 2012 at the \"Schaafsteich\" Elxleben"
 
   'Development_0010': 'This site was developed with Ruby On Rails'
   'Development_0020': 'Getting started with Ruby On Rails'

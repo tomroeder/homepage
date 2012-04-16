@@ -24,7 +24,6 @@ group :assets do
   # gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 end
-
 gem 'newrelic_rpm'
 
 gem 'haml'

@@ -19,6 +19,7 @@ de:
   hello:    "hallo"
   Images: "Bilder"
   'Contact form': 'Kontaktformular'
+  'Message': 'Nachricht'
   Music:  "Musik" 
   'New':    "Neu"
   'Password': 'Passwort'
@@ -53,6 +54,7 @@ de:
   'Fishing_0040': 'Nahe dem Stausee Hohenfelden.'
   'Fishing_0050': 'Hauptfischarten:'
   'Fishing_0060': 'Karpfen, Schleien, schöne Hechte, Aale und verschiedene Weißfischarten etc.'
+  'Fishing_0065': "Neugierige Kolbenente im Neuen Kiessee II"
   'Fishing_0070': 'Als Altgewässer ist dieser See für einige Überraschungen gut, hervorragende Fänge an Karpfen, Aal, Schleie, Hecht, Barsch und Zander.'
   'Fishing_0080': 'Zu meiden ist das Steilufer am Werkgelände aus Gründen von Gefahren.' 
   'Fishing_0090': 'Dieser See ist verbunden mit dem unmittelbar davorliegenden Gewässer.' 
@@ -65,6 +67,7 @@ de:
   'Fishing_0150': 'Sie können die genannten Kiesseen auch erreichen, in dem Sie durch Mittelhausen die Straße nach Nöda fahren.' 
   'Fishing_0160': 'Ca. nach einem Kilometer in Höhe des Wäldchens links abbiegen und den befestigten Elxlebener Feldweg bis zum Reihersee fahren.' 
   'Fishing_0170': 'Hier sind auch der Hechtsee, Plötzensee, Karpfenteich und der Kiessee im Gelände des Werkes (ZBO) zu erreichen'
+  'Fishing_0180':   "Winter 2012 am Schaafsteich Elxleben"
   
   'Development_0010': 'Diese Seite wurde mit Ruby On Rails entwickelt'
   'Development_0020': 'Einstieg in Ruby On Rails'

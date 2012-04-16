@@ -27,4 +27,10 @@ $(document).ready(function () {
         'overlayColor': '#000',
         'overlayOpacity': 0.9
     });
+    
+    // Enlarge all links if the mouse is over it.
+    $("a").hover(
+    	function(){ $(this).css("font-size", "1.2em"); },
+    	function(){	$(this).css("font-size", "1.0em"); }
+    )
 });

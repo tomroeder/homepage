@@ -4,7 +4,16 @@
     = form_for (@m_micropost) do |mp|
       -# Render errors from the last save action (if any errors exist) 
       = render 'shared/error_messages'
+      %div
+        Email 
+        %br
+        %br
+        = mp.text_field :email
+      %br
       %div 
+        = t('Message')
+        %br
+        %br
         = mp.text_area :content , :id => 'comment', :rows => 10, :cols => '100%'
       %br
       %div
